@@ -42,49 +42,59 @@ public class Bill {
 			
 			switch(choice)
 			{
-			case 1: System.out.println("Enter quantity of dosa :");
-			        quantity = sc.nextInt();
-			        totalbill+=quantity*dosa;
+			case 1: 
+				System.out.println("Enter quantity of dosa :");
+			    quantity = sc.nextInt();
+			    totalbill+=quantity*dosa;
 			    break;
-			case 2: System.out.println("Enter quantity of Idli :");
-				    quantity = sc.nextInt();
-				    totalbill+=quantity*idli;
+			case 2: 
+				System.out.println("Enter quantity of Idli :");
+				quantity = sc.nextInt();
+				totalbill+=quantity*idli;
 		        break;
-			case 3: System.out.println("Enter quantity of Samosa :");
-				    quantity = sc.nextInt();
-				    totalbill+=quantity*samosa;
+			case 3: 
+				System.out.println("Enter quantity of Samosa :");
+				quantity = sc.nextInt();
+				totalbill+=quantity*samosa;
                 break;
-			case 4: System.out.println("Enter quantity of noodles :");
-				    quantity = sc.nextInt();
-				    totalbill+=quantity*noodles;		        
+			case 4: 
+				System.out.println("Enter quantity of noodles :");
+				quantity = sc.nextInt();
+				totalbill+=quantity*noodles;		        
 			    break;
-			case 5: System.out.println("Enter quantity of poha :");
-					quantity = sc.nextInt();
-					totalbill+=quantity*Poha;
-					break;
-			case 6: System.out.println("Enter quantity of tea :");
-					quantity = sc.nextInt();
-					totalbill+=quantity*tea;
-			        break;
-			case 7 : System.out.println("Enter quantity of coffee :");
-					quantity = sc.nextInt();
-					totalbill+=quantity*coffee;
-	                break;
-			case 8: System.out.println("Enter quantity of coffee :");
-					quantity = sc.nextInt();
-					totalbill+=quantity*vadapav;
-                    break;
-			case 9: System.out.println("Enter quantity of coffee :");
-					quantity = sc.nextInt();
-					totalbill+=quantity*masaladosa;
-					break;
-			case 10: System.out.println("Enter quantity of coffee :");
-					quantity = sc.nextInt();
-					totalbill+=quantity*upma;
-			        break;
+			case 5:
+				System.out.println("Enter quantity of poha :");
+			    quantity = sc.nextInt();
+			    totalbill+=quantity*Poha;
+				break;
+			case 6: 
+				System.out.println("Enter quantity of tea :");
+			    quantity = sc.nextInt();
+			    totalbill+=quantity*tea;
+			    break;
+			case 7 :
+				System.out.println("Enter quantity of coffee :");
+			    quantity = sc.nextInt();
+				totalbill+=quantity*coffee;
+	            break;
+			case 8: 
+				System.out.println("Enter quantity of coffee :");
+				quantity = sc.nextInt();
+				totalbill+=quantity*vadapav;
+                break;
+			case 9: 
+				System.out.println("Enter quantity of coffee :");
+				quantity = sc.nextInt();
+				totalbill+=quantity*masaladosa;
+				break;
+			case 10: 
+				System.out.println("Enter quantity of coffee :");
+				quantity = sc.nextInt();
+				totalbill+=quantity*upma;
+			    break;
 			case 11:
-				   System.out.println("Total bill:RS" + totalbill);
-				   break;
+				System.out.println("Total bill:RS" + totalbill);
+				break;
 			default:
 				    System.out.println("invalid choice..........");
 			
